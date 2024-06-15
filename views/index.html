@@ -1,1 +1,171 @@
-<h1>Olá mundo!</h1> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nome Projeto</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style/estilo.css">
+    
+
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            Doenças de Transmissão Hídrica ou Alimentar
+        </header>
+        <div class="content">
+            <div class="subject" data-toggle="modal" data-target="#leptospiroseModal">
+                <span> <span class="title-doenca">Leptospirose</span> <img src="../images/rat.png" class="images-index" alt="Leptospirose"></span>    
+            </div>
+            <div class="subject" data-toggle="modal" data-target="#tetanoModal">
+                <span> <span class="title-doenca">Tetano</span> <img src="../images/tetano.jpg" class="images-index" alt="tetano"></span>    
+            </div>
+            <div class="subject" data-toggle="modal" data-target="#hepatiteModal">
+                <span> <span class="title-doenca">Hepatite A</span> <img src="../images/hepatite.jpg" class="images-index" alt="Hepatite A"> </span>
+            </div>
+            <div class="subject" data-toggle="modal" data-target="#dengueModal">
+                <span> <span class="title-doenca">Dengue</span> <img src="../images/dengue.png" class="images-index" alt="Dengue"> </span>
+            </div>
+            <div class="subject" data-toggle="modal" data-target="#coleraModal">
+                <span> <span class="title-doenca">Cólera</span> <img src="../images/colera.jpg" class="images-index" alt="Cólera"> </span>
+            </div>
+        </div>
+
+        <!-- Modais -->
+        
+        <div class="modal fade" id="leptospiroseModal" tabindex="-1" aria-labelledby="leptospiroseModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="leptospiroseModalLabel">Leptospirose</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container margin-top-modal">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p>Agente transmissor: Trata-se de uma doença adquirida pela exposição direta ou indireta à urina de animais (principalmente ratos) infectados pela bactéria Leptospira</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <strong>Principais Sintomas</strong>
+                                    <ul>
+                                        <li>Febre</li>
+                                        <li>Dor de cabeça</li>
+                                        <li>Dor muscular</li>
+                                        <li>Falta de apetite</li>
+                                        <li>Náuseas/vômitos</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="../images/rat_modal.png" class="images-modal" alt="Rato">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <strong>Cuidados Paliativos</strong>
+                                    <ul>
+                                        <li><span>Evite a exposição de feridas, cortes em água contaminada, se possível utilizar bandagens</span></li>
+                                        <li><span>Evite o contato da água contaminada e lama de enchente diretamente com a pele, se possível utilize botas e agasalhos para cobrir a pele</span></li>
+                                        <li><span>Realize a higienização de alimentos tantos em natura quanto embalados</span></li>
+                                        <li><span>Não há até o momento remédios Profiláticos</span></li>
+                                        <li><span>Caso identifique algum desses sintomas, procure o atendimento médico mais próximo</span></li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="tetanoModal" tabindex="-1" aria-labelledby="tetanoModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="tetanoModalLabel">Tetano</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Informações sobre o Tetano.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal fade" id="hepatiteModal" tabindex="-1" aria-labelledby="hepatiteModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="hepatiteModalLabel">Hepatite A</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Informações sobre a Hepatite A.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal fade" id="dengueModal" tabindex="-1" aria-labelledby="dengueModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="dengueModalLabel">Dengue</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Informações sobre a Dengue.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal fade" id="coleraModal" tabindex="-1" aria-labelledby="coleraModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="coleraModalLabel">Cólera</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Informações sobre a Cólera.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

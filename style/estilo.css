@@ -1,0 +1,73 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.header, .footer {
+    width: 100%;
+    background-color: #e3f2fd; /* Azul claro */
+    padding: 20px;
+    border: 1px solid #90caf9;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.container {
+    margin-top: 100px; /* Espaço para o header */
+    margin-bottom: 100px; /* Espaço para o footer */
+}
+
+.content {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subject {
+    transition: transform 0.3s;
+    width: 60%; /* Largura de 80% */
+    margin: 10px 0;
+    padding: 20px;
+    border: 1px solid #90caf9;
+    background-color: #f1f8e9; /* Verde claro */
+    text-align: center;
+    font-size: 2.25em;
+}
+
+.subject:hover {
+    transform: scale(1.05);
+}
+
+.images-index{
+    width: 15%;
+    float: right;
+}
+.images-modal{
+    width: 90%;
+    float: right;
+}
+
+.title-doenca{
+    float: left;
+}
+
+.margin-top-modal{
+    margin-top: 5px;
+}
