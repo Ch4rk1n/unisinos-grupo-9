@@ -12,7 +12,10 @@
 <body>
     <div class="container">
         <header class="header">
-            Doenças de Transmissão Hídrica ou Alimentar
+            <span id="cabecalho">Doenças de Transmissão Hídrica ou Alimentar</span>    
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Digite para buscar...">
+            </div>
         </header>
         <div class="content">
             <div class="subject" data-toggle="modal" data-target="#leptospiroseModal">
@@ -97,7 +100,35 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        Informações sobre o Tetano.
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p>Agente transmissor: trata-se de uma doença causada pela bactéria (clostridium tetani) que pode estar presente na pele, fezes, terra, galhos, plantas baixas, água suja e poeira.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <strong>Principais Sintomas</strong>
+                                <ul>
+                                    <li>Contraturas musculares</li>
+                                    <li>Rigidez de membros (braços e pernas)</li>
+                                    <li>Rigidez abdominal</li>
+                                    <li>Dificuldade de abrir a boca</li>
+                                    <li>Dores nas costas e nos membros inferiores e superiores</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="../images/tetano_modal.jpg" class="images-modal" alt="Rato">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <strong>Cuidados Paliativos</strong>
+                                <ul>
+                                    <li><span>Utilização de equipamentos de proteção individual como botas, calças, luvas, capacetes e demais itens;</span></li>
+                                    <li><span>Vacinação para o tétano, a vacina é gratuita e pode ser encontrada em toda a rede de vacinação do Sistema único de Saúde.</span></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
@@ -116,7 +147,42 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        Informações sobre a Hepatite A.
+                        <div class="container margin-top-modal">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p>Agente transmissor: trata-se de uma doença causada pelo vírus A (HAV) da hepatite. A transmissão ocorre é fecal-oral, ou seja, contato de fezes com a boca. Essa doença está associada com o consumo de alimentos não higienizados ou água insalubre, além de estar associada aos locais com baixa investimentos em saneamento básico e recorrente em pessoas de situação de rua.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <strong>Principais Sintomas</strong>
+                                    <ul>
+                                        <li>Fadiga</li>
+                                        <li>Mal-estar</li>
+                                        <li>Febre</li>
+                                        <li>Dores musculares</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="../images/hepatite_modal.jpg" class="images-modal" alt="Rato">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <strong>Cuidados Paliativos</strong>
+                                    <ul>
+                                        <li><span>Fazer o uso da vacina contra a hepatite A, cujo é altamente eficaz</span></li>
+                                        <li><span>Manter as mãos limpas sempre que for manusear alimentos e realizar ações que levem a mão para a boca</span></li>
+                                        <li><span>Lavar alimentos corretamente e utilizando água tratada</span></li>
+                                        <li><span>Cozinhar bem os alimentos antes de consumi-los</span></li>
+                                        <li><span>Usar instalações sanitárias</span></li>
+                                        <li><span>Usar preservativos e higienização das mãos, genitália, períneo e região anal antes e após as relações sexuais</span></li>
+                                        <li><span>Evitar a construção de moradias próximos de locais que tenham água de esgoto;</span></li>
+                                        <li><span>Nas escolas, creches, lanchonetes e restaurantes manter todos os objetos de uso particular e compartilhados sempre higienizados.</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
@@ -135,7 +201,48 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        Informações sobre a Dengue.
+                        <div class="container margin-top-modal">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p>Agente transmissor: trata-se de uma doença causada pelo vírus fêmea do mosquito Aedes aegypti (significa “odioso do Egito).</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <strong>Principais Sintomas</strong>
+                                    <ul>
+                                        <li>Febre entre 39ºC - 40ºC</li>
+                                        <li>Dor de cabeça, prostração (debilidade física)</li>
+                                        <li>Dores musculares e/ou articulares e dor atrás dos olhos.</li>
+                                        
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="../images/dengue_modal.jpg" class="images-modal" alt="Rato">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <ul>
+                                        <li>Dor abdominal (dor na barriga) intensa e contínua</li>
+                                        <li>Vômitos persistentes</li>
+                                        <li>Acúmulo de líquidos em cavidades corporais (ascite, derrame pleural, derrame pericárdico)</li>
+                                        <li>Hipotensão postural e/ou lipotimia</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <strong>Cuidados Paliativos</strong>
+                                    <ul>
+                                        <li><span>Atualmente o Sistema Único de Saúde possui vacina contra a dengue, procurar as unidades de saúde para verificar se o município já está dentro da cobertura</span></li>
+                                        <li><span>Utilizar repelente e utilizar proteção com telas nas janelas</span></li>
+                                        <li><span>Remover recipientes que facilitem o acúmulo de água como suporte de vasos, calhas, ralos, piscinas e etc</span></li>
+                                        <li><span>Vedar reservatórios e caixas de água.</span></li>
+                                       </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
@@ -154,7 +261,44 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        Informações sobre a Cólera.
+                        <div class="container margin-top-modal">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p>Agente transmissor: A cólera é causada pela ação da toxina liberada por dois sorogrupos específicos da bactéria Vibrio cholerae. Trata-se de uma doença bacteriana infecciosa intestinal aguda, transmitida por contaminação fecal-oral direta ou pela ingestão de água ou alimentos contaminados.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <strong>Principais Sintomas</strong>
+                                    <ul>
+                                        <li>Diarreia aquosa com diferentes intensidades, dependendo do nível da doença</li>
+                                        <li>Náusea e vômitos</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="../images/colera_modal.jpg" class="images-modal" alt="Rato">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <ul>
+                                        <li>Em virtude da diarreia, pode-se desenvolver cãibras musculares e choques</li>
+                                        <li>A desidratação em decorrência da diarreia, pode-se desenvolver irritabilidade, pele seca, boca seca, arritmia cardíaca, pouca produção de urina e perdas de minerais do sangue</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <strong>Cuidados Paliativos</strong>
+                                    <ul>
+                                        <li><span>Mantenha as mãos limpas sempre que vou manusear algo que vou levar a boca</span></li>
+                                        <li><span>Lave superfícies que vou manusear alimentos</span></li>
+                                        <li><span>Não consuma água de rios, lagos, riachos e poços contaminados</span></li>
+                                        <li><span>Higieniza alimentos antes de consumi-los, e evite o consumo de alimentos crus</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
@@ -162,10 +306,24 @@
                 </div>
             </div>
         </div>
-        
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#searchInput').keyup(function() {
+                var searchText = $(this).val().toLowerCase();
+                $('.subject').hide();
+                $('.subject').each(function() {
+                    var currentText = $(this).find('.title-doenca').text().toLowerCase();
+                    if (currentText.includes(searchText)) {
+                        $(this).show();
+                    }
+                });
+            });
+        });
+
+    </script>
 </body>
 </html>
